@@ -8,7 +8,7 @@ function ButtonLearnMore() {
     //   <span class="bottom-border"></span>
     //   <span class="left-border"></span> Sabz Learn
     // </a>
-    <BTN>
+    <BTN className="btn">
       <TopBorder />
       <RightBorder />
       <BottomBorder />
@@ -21,6 +21,7 @@ function ButtonLearnMore() {
 export default ButtonLearnMore;
 
 const BTN = styled.a`
+  cursor: pointer;
   margin-top: 2vh;
   margin-bottom: 2vh;
   padding: 20px 40px;
@@ -29,7 +30,7 @@ const BTN = styled.a`
   background-color: #00000043;
   font-size: 20px;
   text-decoration: none;
-  color: rgb(255, 0, 111);
+  color: rgb(225, 225, 225);
   text-transform: uppercase;
   display: inline-block;
   position: relative;
@@ -41,7 +42,7 @@ const TopBorder = styled.span`
   height: 3px;
   top: 0;
   left: 0;
-  background-color: rgb(255, 0, 111);
+  background-color: rgb(225, 225, 225);
   animation: LTR 1s linear infinite;
   animation-delay: 0;
 `;
@@ -52,7 +53,7 @@ const RightBorder = styled.span`
   right: 0;
   width: 3px;
   height: 80px;
-  background-color: rgb(255, 0, 111);
+  background-color: rgb(225, 225, 225);
   animation: UTD 1s linear infinite;
   animation-delay: 0.4s;
 `;
@@ -62,7 +63,7 @@ const BottomBorder = styled.span`
   height: 3px;
   right: 0;
   bottom: 0;
-  background-color: rgb(255, 0, 111);
+  background-color: rgb(225, 225, 225);
   animation: RTL 1s linear infinite;
   animation-delay: 1s;
 `;
@@ -72,7 +73,7 @@ const LeftBorder = styled.span`
   left: 0;
   width: 3px;
   height: 80px;
-  background-color: rgb(255, 0, 111);
+  background-color: rgb(225, 225, 225);
   animation: DTU 1s linear infinite;
   animation-delay: 1.4s;
 `;

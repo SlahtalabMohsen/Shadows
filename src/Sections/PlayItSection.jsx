@@ -40,13 +40,13 @@ function PlayItSection() {
 }
 
 export default PlayItSection;
-
 const Container = styled.div`
-  margin-top: -15vh;
+  margin-top: 15vh;
   width: 100%;
   height: 140vh;
-  /* background-image: url("src/"); */
-  background-image: linear-gradient(#1c1b1b, black);
+  background-image: url("/Naoe vs Yasuke.jpg");
+  /* background-image: linear-gradient(#1c1b1b, black); */
+
   background-repeat: no-repeat;
   background-position: inherit;
   background-size: contain;
