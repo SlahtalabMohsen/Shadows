@@ -13,7 +13,7 @@ const RevealSection = styled.div`
   height: 120vh;
   margin-top: 5vh;
   text-align: center;
-  background-image: url("src/assets/acf-ac-red-header-bg-desktop.avif");
+  background-image: url("/acf-ac-red-header-bg-desktop.avif");
   background-repeat: no-repeat;
   background-position: center;
 `;
@@ -47,7 +47,7 @@ const InfoBoxImage = styled.div`
   margin-top: 15vh;
   width: 36vh;
   height: 10vh;
-  background-image: url("src/assets/REDlogo_Vertical_AllWhite_NoCrest.png");
+  background-image: url("/REDlogo_Vertical_AllWhite_NoCrest.png");
   background-position: inherit;
   background-size: contain;
   background-repeat: no-repeat;
@@ -57,7 +57,7 @@ const InfoBoxImage = styled.div`
 const BoxImage = styled.div`
   width: 45vh;
   height: 30vh;
-  background-image: url("src/assets/Ac-Shadow.jpg");
+  background-image: url("/Ac-Shadow.jpg");
   background-position: inherit;
   background-size: contain;
   background-repeat: no-repeat;

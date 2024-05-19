@@ -67,7 +67,7 @@ const Container = styled.div`
 const PreOrderPhoto = styled.div`
   width: 50%;
   height: 80%;
-  background-image: url("src/assets/AC_RED_PREORDER_BONUS_QUEST_WEBSITE_960x540.jpg");
+  background-image: url("/AC_RED_PREORDER_BONUS_QUEST_WEBSITE_960x540.jpg");
   background-position: inherit;
   background-size: contain;
   background-repeat: no-repeat;
@@ -78,7 +78,7 @@ const PreOrderPhoto = styled.div`
 const PreOrderPhoto2 = styled.div`
   width: 50%;
   height: 80%;
-  background-image: url("src/assets/RED_MOCKUP_COMPARATIVEGRID_1920x1080_EN.avif");
+  background-image: url("/RED_MOCKUP_COMPARATIVEGRID_1920x1080_EN.avif");
   background-position: inherit;
   background-size: contain;
   background-repeat: no-repeat;
@@ -89,7 +89,7 @@ const PreOrderPhoto2 = styled.div`
 const PreOrderPhoto3 = styled.div`
   width: 50%;
   height: 80%;
-  background-image: url("src/assets/AC_RED_COLLECTOR_WEBSITE_960x540_03.avif");
+  background-image: url("/AC_RED_COLLECTOR_WEBSITE_960x540_03.avif");
   background-position: inherit;
   background-size: contain;
   background-repeat: no-repeat;

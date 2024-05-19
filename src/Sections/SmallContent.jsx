@@ -16,7 +16,7 @@ const SmallSection = styled.div`
 const SmallContentImage = styled.div`
   width: 60%;
   height: 100%;
-  background-image: url("src/assets/dagger.jpg");
+  background-image: url("/dagger.jpg");
   background-position: inherit;
   background-size: contain;
   background-repeat: no-repeat;

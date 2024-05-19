@@ -89,7 +89,7 @@ const PostCardPhoto1 = styled.div`
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("src/assets/1_desktop_2x.jpg");
+  background-image: url("/1_desktop_2x.jpg");
 `;
 
 const PostCardPhoto2 = styled.div`
@@ -99,7 +99,7 @@ const PostCardPhoto2 = styled.div`
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("src/assets/2_desktop_2x.jpg");
+  background-image: url("/2_desktop_2x.jpg");
 `;
 
 const PostCardTitle = styled.div`

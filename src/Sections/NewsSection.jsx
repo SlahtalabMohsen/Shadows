@@ -127,7 +127,7 @@ const PostCardPhoto1 = styled.div`
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("src/assets/NewSection-1.avif");
+  background-image: url("/NewSection-1.avif");
   /* background-color: #350080; */
 `;
 const PostCardPhoto2 = styled.div`
@@ -137,7 +137,7 @@ const PostCardPhoto2 = styled.div`
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("src/assets/NewSection-2.jpg");
+  background-image: url("/NewSection-2.jpg");
   /* background-color: #350080; */
 `;
 const PostCardPhoto3 = styled.div`
@@ -147,7 +147,7 @@ const PostCardPhoto3 = styled.div`
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("src/assets/NewSection-3.jpg");
+  background-image: url("/NewSection-3.jpg");
   /* background-color: #350080; */
 `;
 
@@ -193,7 +193,7 @@ const SocialIcon1 = styled.div`
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("src/assets/_Ubisoft__global_facebook_logo.png");
+  background-image: url("/_Ubisoft__global_facebook_logo.png");
   /* background-color: #350080; */
   margin-left: 4vh;
   margin-right: 4vh;
@@ -205,7 +205,7 @@ const SocialIcon2 = styled.div`
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("src/assets/_Ubisoft__global_instagram_logo.png");
+  background-image: url("/_Ubisoft__global_instagram_logo.png");
   /* background-color: #350080; */
   margin-left: 4vh;
   margin-right: 4vh;
@@ -217,7 +217,7 @@ const SocialIcon3 = styled.div`
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("src/assets/_Ubisoft__global_twitch_logo.webp");
+  background-image: url("/_Ubisoft__global_twitch_logo.webp");
   /* background-color: #350080; */
   margin-left: 4vh;
   margin-right: 4vh;
@@ -229,7 +229,7 @@ const SocialIcon4 = styled.div`
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("src/assets/_Ubisoft__global_twitter_logo.png");
+  background-image: url("/_Ubisoft__global_twitter_logo.png");
   /* background-color: #350080; */
   margin-left: 4vh;
   margin-right: 4vh;
@@ -241,7 +241,7 @@ const SocialIcon5 = styled.div`
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("src/assets/_Ubisoft__global_youtube_logo.png");
+  background-image: url("/_Ubisoft__global_youtube_logo.png");
   /* background-color: #350080; */
   margin-left: 4vh;
   margin-right: 4vh;

@@ -104,7 +104,7 @@ const RightSection = styled.div`
 `;
 
 const FooterIcon = styled.div`
-  background-image: url("src/assets/footer_logo.png");
+  background-image: url("/footer_logo.png");
   width: 36vh;
   height: 30vh;
   background-position: inherit;
@@ -117,7 +117,7 @@ const FooterLogo = styled.div`
   margin-top: 10vh;
   width: 40vh;
   height: 10vh;
-  background-image: url("src/assets/REDlogo_Vertical_AllWhite_NoCrest.png");
+  background-image: url("/REDlogo_Vertical_AllWhite_NoCrest.png");
   background-position: inherit;
   background-size: contain;
   background-repeat: no-repeat;

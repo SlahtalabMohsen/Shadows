@@ -67,7 +67,7 @@ const Container = styled.div`
   margin-top: -15vh;
   width: 100%;
   height: 120vh;
-  background-image: url("src/assets/1_2_AC_RED_Vista_Autumn.png");
+  background-image: url("/1_2_AC_RED_Vista_Autumn.png");
   background-repeat: no-repeat;
   background-position: inherit;
   background-size: contain;
@@ -78,7 +78,7 @@ const Container2 = styled.div`
   margin-top: -15vh;
   width: 100%;
   height: 120vh;
-  background-image: url("src/assets/3_AC_RED_Naoe_Knife_At_Night.avif");
+  background-image: url("/3_AC_RED_Naoe_Knife_At_Night.avif");
   background-repeat: no-repeat;
   background-position: inherit;
   background-size: contain;
@@ -90,7 +90,7 @@ const Container3 = styled.div`
   margin-top: -15vh;
   width: 100%;
   height: 120vh;
-  background-image: url("src/assets/2_2_AC_RED_Yasuke_Destruction.avif");
+  background-image: url("/2_2_AC_RED_Yasuke_Destruction.avif");
   background-repeat: no-repeat;
   background-position: inherit;
   background-size: contain;
@@ -101,7 +101,7 @@ const Container4 = styled.div`
   margin-top: -15vh;
   width: 100%;
   height: 120vh;
-  background-image: url("src/assets/4_AC_RED_Information.avif");
+  background-image: url("/4_AC_RED_Information.avif");
   background-repeat: no-repeat;
   background-position: inherit;
   background-size: contain;
