@@ -53,12 +53,15 @@ function FooterSection() {
             <h3>MACOS</h3>
           </FooterItems>
         </FooterIndex>
-        <FooterText>
-          © 2024 Ubisoft Entertainment. All Rights Reserved. Assassin’s Creed,
-          Ubisoft, and the Ubisoft logo are registered or unregistered
-          trademarks of Ubisoft Entertainment in the US and/or other countries.
-          Mac® & MacApp® are trademarks of Apple Inc.
-        </FooterText>
+        <FooterCopyright>
+          <FooterText>
+            © 2024 Ubisoft Entertainment. All Rights Reserved. Assassin’s Creed,
+            Ubisoft, and the Ubisoft logo are registered or unregistered
+            trademarks of Ubisoft Entertainment in the US and/or other
+            countries. Mac® & MacApp® are trademarks of Apple Inc.
+          </FooterText>
+          <FooterRpLogo />
+        </FooterCopyright>
       </RightSection>
     </Container>
   );
@@ -144,4 +147,21 @@ const FooterText = styled.div`
   color: white;
   font-size: smaller;
   text-align: center;
+`;
+
+const FooterCopyright = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+`;
+
+const FooterRpLogo = styled.div`
+  width: 40vh;
+  height: 10vh;
+  background-image: url("/eng-rp-likely-m17-content-descriptors.avif");
+  background-position: inherit;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 5vh;
 `;

@@ -112,7 +112,7 @@ const Container4 = styled.div`
 const InfoBoxLeft = styled.div`
   position: relative;
   color: #e6e6e6;
-  height: 32vh;
+  height: 38vh;
   width: 55vh;
   left: 8%;
   top: 55%;
@@ -130,7 +130,7 @@ const InfoBoxLeft = styled.div`
 const InfoBoxRight = styled.div`
   position: relative;
   color: #e6e6e6;
-  height: 32vh;
+  height: 38vh;
   width: 55vh;
   left: 55%;
   top: 50%;
